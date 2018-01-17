@@ -58,6 +58,9 @@ class EmptyBluetoothEventListener : IBluetoothEventListener {
     override fun onPairing() {
     }
 
+    override fun onPaired() {
+    }
+
     override fun onDisconnecting() {
     }
 
